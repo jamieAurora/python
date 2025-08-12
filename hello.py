@@ -102,13 +102,5 @@ while q != 6:
   q+=1
 
 
-#print(itemList)
-#print(amountList)
-totalList = [itemList,amountList]
-#print(totalList[0][0])
-#print(totalList[1][0])
-v = 0
-while v < len(itemList):
- #print('v is ', v)
- print(totalList[0][v],':',totalList[1][v])
- v += 1
+print(itemList)
+print(amountList)
